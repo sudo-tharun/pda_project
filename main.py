@@ -1,5 +1,4 @@
 import streamlit as st
-import pipreqs
 
 move_top='<p style="color:Red; font-size: 20px;"><a href="#stock-market-prediction-using-transfer-learning-exploratory-data-analysis">Move to top<a></p>'
 st.sidebar.markdown(move_top,unsafe_allow_html=True)
@@ -199,5 +198,3 @@ elif download=="Exploratory Data Analysis ipynb file":
     st.download_button(label="Download Exploratory Data Analysis file",data='https://github.com/sudo-tharun/pda_project/blob/f98c6502b46c1e4bdc33c523048d15e03c91cad1/multi_source_transfer_learning_using_XAI_for_stock_prediction.ipynb',file_name="final_model.ipynb")
 elif  download=="Final Model ipynb file":
     st.download_button(label="Download Final Model ipynb file",data='https://github.com/sudo-tharun/pda_project/blob/f98c6502b46c1e4bdc33c523048d15e03c91cad1/exploratory-data-analysis.ipynb',file_name="eda.ipynb")
-
-pipreqs
