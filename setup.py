@@ -4,7 +4,7 @@ from pathlib import Path
 import subprocess
 import sys
 
-package_list = str(Path(Path.cwd() / 'packages.txt'))
+package_list = str(Path(Path.cwd() / 'requiements.txt'))
 
 # Upgrades pip
 def upgrade_pip():
