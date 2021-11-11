@@ -1,5 +1,4 @@
 import streamlit as st
-import pipreqs
 
 def main():
     move_top='<p style="color:Red; font-size: 20px;"><a href="#stock-market-prediction-using-transfer-learning-exploratory-data-analysis">Move to top<a></p>'
